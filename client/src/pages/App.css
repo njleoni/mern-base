@@ -1,0 +1,134 @@
+html {
+  background: url("../images/UncleSamsBG.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  height: 1000px;
+  margin-top: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 100%; */
+}
+.data-container {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 100%; */
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+
+.message {
+  flex-grow: 1;
+  color: white;
+  font-weight: 900;
+  background-image: linear-gradient(white, lightblue);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-radius: 18px;
+  box-shadow: 3px 3px 2px rgb(20, 20, 20);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.data {
+  flex-basis: auto;
+  color: white;
+  font-weight: 900;
+  background-image: linear-gradient(white, #3e58b6);
+  border-radius: 18px;
+  box-shadow: 3px 3px 2px rgb(20, 20, 20);
+}
+
+h2 {
+  color: #3e58b6;
+  align-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h4 {
+  color: white;
+  background-image: linear-gradient(lightblue, #3e58b6);
+  align-content: center;
+  font-weight: 700;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 2px #3e58b6;
+}
+h5 {
+  color: green;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+  align-content: center;
+  color: black;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  /* box-shadow: 3px 3px 2px black; */
+}
+
+button:hover {
+  background-color: lightblue; /* Green */
+}
+
+.card {
+  color: white;
+  background-image: url("../images/QuestionCard.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 550px;
+  box-shadow: 5px 5px 5px rgb(92, 92, 92);
+}
+.question {
+  font-weight: 600;
+  font-size: 20px;
+  color: black;
+  align-content: center;
+  padding-top: 160px;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#next {
+  color: white;
+  margin-top: 5px;
+  padding: 6px;
+  border-radius: 10px;
+  background-color: #3e58b6;
+  box-shadow: 3px 3px 2px black;
+}
+
+#next:hover {
+  color: white;
+  font-weight: 700;
+  background-color: green; /* Green */
+}
+.guy {
+  padding-left: 22%;
+}
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */

@@ -1,0 +1,66 @@
+html {
+  background: url("./images/UncleSamsBG.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  height: 1000px;
+  margin-top: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 100%; */
+}
+
+.message {
+  flex-grow: 1;
+  color: white;
+  font-weight: 900;
+  background-image: linear-gradient(white, lightblue);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-radius: 18px;
+  border-color: white;
+  box-shadow: 3px 3px 2px rgb(20, 20, 20);
+}
+
+h2 {
+  text-shadow: 2px 2px 2px lightblue;
+  align-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+p {
+  align-content: center;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+  margin-top: 20px;
+  border-radius: 20px;
+  background-color: white;
+  border: none;
+  /* box-shadow: 3px 3px 2px black; */
+}
+
+#play {
+  box-shadow: 3px 3px 2px black;
+}
+
+.guy {
+  width: 200px;
+  align-content: center;
+}
+
+/* @keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+} */
